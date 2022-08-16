@@ -1,0 +1,65 @@
+@media screen {
+    body,html{
+        display: flex;
+    }
+}
+.main{
+    background-color: rgb(5, 5, 5);
+    height: 960px;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    
+}
+#block1{
+    background-color: crimson;
+    border: 2px solid red;
+    height: 90;
+    width: 1000px;
+    float: right;
+    margin: 2px;
+    position: relative;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    color: rgb(43, 26, 5);
+
+}
+#block2{
+    background-color: rgb(103, 52, 62);
+    height: 600px;
+    width: 150px;
+    float: left;
+    margin: 0;
+    position: relative;
+}
+#block3{
+    background-color: rgb(173, 147, 32);
+    height: 300px;
+    width: 400px;
+    float: right;
+    margin: 2px;
+
+}
+#block4{
+    background-color: rgb(123, 166, 109);
+    height: 300;
+    width: 600px;
+    float: right;
+    margin: 2px;
+    font-size: large;
+}
+
+#block5{
+    background-color: rgb(78, 101, 140);
+    height: 200;
+    width: 1000px;
+    float: right;
+    margin: 2px;
+    padding-right: 4px;
+}
+foot{
+    background-color: darkmagenta;
+    color: blue;
+}

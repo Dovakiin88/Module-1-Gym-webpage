@@ -1,0 +1,28 @@
+body,html{
+    background-color: black;
+}
+#side{
+    background-color: darkmagenta;
+    height: 600px; ;
+    width: 100px;
+    float: left;
+    align-items: center;
+}
+#main{
+    height: 600px;
+    width: 500px;
+    float: right;
+    margin: auto;
+    padding: auto;
+    text-align: center;
+    background-color: lightcoral;
+    align-items: center;
+    opacity: .9;
+}
+.box{
+    background-image: url(images/dumbbells.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items:center; 
+    display: flex;
+}
